@@ -1,0 +1,115 @@
+body {
+  background-image: url("monstera-background.jpg");
+  background-color: #374f2f;
+  font-family: 'DIN Condensed';
+}
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-top: 100px;
+  color: white;
+}
+
+.border-wrapper {
+  margin-top: 20px;
+  background: rgba(217, 217, 217, 0.06);
+backdrop-filter: blur(20px);
+  border-radius: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.filter-buttons {
+  color: white;
+  margin-top: 20px;
+  margin-left: 6px;
+  margin-right 6px;
+}
+
+#todo-list {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 3%;
+  margin-bottom: 10px;
+}
+
+#todo-list input{
+  margin: 6px;
+}
+#todo-list p{
+  color: white;
+  margin: 6px;
+  margin-top: 8px;
+  width: 80%;
+}
+
+.delete{
+  font-size: 18px;
+  margin: 6px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+input[type=checkbox]:checked {
+  accent-color: green;
+}
+
+#new-task-content{
+  width: 240px;
+  color: white;
+  background: rgba(0,0,0,0.3);
+  border: 
+}
+
+::placeholder {
+  color: #eee;
+}
+
+button:hover{
+  transform: scale(1.2)
+}
+
+.filter-buttons:hover{
+  text-shadow: 4px 4px #6C6868 ;
+}
+
+#filter-all:hover {
+  text-decoration: underline;
+}
+
+#filter-complete:hover {
+  text-decoration: underline;
+}
+#filter-active:hover {
+  text-decoration: underline;
+}
+
+.new-item {
+  padding-top: 10px;
+}
+
+#new-task-content{
+  color: white !important;
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+#filter-all, #filter-complete, #filter-active {
+  color: white !important;
+}
+
+#todo-list .row{
+  
+  border:0;
+  border-bottom:1px solid #eee;
+  width: 80%;
+}
